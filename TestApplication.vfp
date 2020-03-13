@@ -1,0 +1,11 @@
+<apex:page standardController="hed__Application__c">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Test Application Page </title>
+    <apex:includeScript value="https://www.washington.edu/wp-includes/js/underscore.min.js?ver=1.8.3"/>
+    <apex:includeScript value="https://www.washington.edu/wp-includes/js/backbone.min.js?ver=1.2.3"/>
+    <apex:stylesheet value="https://www.washington.edu/wp-content/themes/uw-2014/style.css?ver=3.6" />
+	
+	<apex:image id="FSBLogo" value="{!$Resource.LogoFSB}" alt="Foster School of Business Logo"/>
+    
+</apex:page>
